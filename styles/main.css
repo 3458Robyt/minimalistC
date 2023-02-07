@@ -1,0 +1,230 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+/*Menu principal*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    background-color: white;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header ul li{
+    list-style: none;
+    transition: all .3s ease;
+}
+
+header ul li:hover{
+    transform: scale(1.4);
+    background-color: rgb(195, 195, 195);
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 11vh;
+    font-size: 4.5mm;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    
+
+}
+/* Propiedades del nombre*/
+
+header .logo{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12mm;
+    letter-spacing: 1px;
+    transition: 1.5s;
+    text-align: left;
+}
+
+/* Grid de imagenes index*/
+
+
+.container-imagenes{
+    height: 100px;
+    margin: 25px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+
+/*Propiedad de las imagenes*/
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Propiedades login y register*/
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.signin-container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="name"] {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgba(128, 128, 128, 0.756);
+ 
+  }
+  .user-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+  
+  .user-icon img {
+    width: 100%;
+  }
+.user-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.user-icon img {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+/*Contact us*/
+.contact{ 
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.contact h2{
+    font-size: 35px;
+    color: gray;
+}
+.contact h3, h4{
+    font-size: 20px;
+    color: gray;
+}
+
+/*mapa*/
+.map {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    justify-content: left;
+}
+
+.map img{
+    object-fit: contain;
+}
+  
+.marker {
+    position: absolute;
+    background: red;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+/*About us*/
+.about{
+    margin-top: 120px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+
+.about section div div h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+
+}
+
+.about img{
+    height: 340px;
+    width: auto;
+    float: right;
+    margin-top: 120px;
+    margin-right: 70px;
+}
+
+.about-text{
+    width: 600px;
+}
